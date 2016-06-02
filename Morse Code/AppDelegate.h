@@ -10,6 +10,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (NSString *)translateStringToMorseCode:(NSString *)stringToTranslate ;
+
+- (NSString *)translateMorseCodeToString:(NSString *)stringInMorseCode ;
+
 
 @end
 
